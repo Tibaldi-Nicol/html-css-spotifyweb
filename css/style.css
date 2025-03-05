@@ -220,7 +220,7 @@ hr {
     gap: 25px;
     color: gray;
     margin-top: 20px;
-    margin-bottom: 30px;
+    
     font-size: 0.9rem;
 }
 /*container padre per centrare il container della musica senza usare main*/
@@ -234,6 +234,26 @@ hr {
     
    
 }
+/*------------------*/
+.center-title{
+   
+    width: 96%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    
+    height: 100%;
+}
+
+.played{
+    width: 100%;
+  
+    
+  
+    justify-content: center;
+    display: flex;
+}
+
 /*----------------INTERNO CONTENUTO PRINCIPALE-------------------------------*/
 /*container per i brani ecc*/
 .music{
@@ -249,12 +269,12 @@ hr {
 /*brani con card*/
 .card{
 
-    background-color: blue;
+    background-color: transparent;
     /*la larghezza sara il 100% del contenitore diviso 6 che sono le card che devpo mettere da esercizio*/
 
     /*ho messo nel calcolo anche la somma dei gap per 6 card 5 spazi quindi 100 20x5*/
     width: calc((100% - 100px) / 6);
-    height: 340px;
+    height: 300px;
     flex-direction: column;
 
 }
@@ -263,26 +283,45 @@ hr {
 .card-foto-1{
     width: 100%;
     height: 70%;
-    background-color: aquamarine;
+    
+    background-color: transparent;
+    background-image: url(../img/metal_lifting.jpg);
+    
+    background-size: cover;
+    
 }
+
 /*testo traccie*/
 .testo-foto-1{
     width: 100%;
+    /*
     height: 30%;
-    background-color: black;
+    */
+    background-color: transparent;
     color: white;
     padding: 10px;
+    text-align: center;
+    
+}
+.title-card{
+    font-size: 1.2rem;
+    padding-top: 6px;
+}
+
+.subtitle{
+    color: gray;
+    padding: 6px;
 }
 
 /*card-2*/
 /*foto delle tracccie che occuperanno solo una parte della cdrd*/
-.card-foto-1{
+.card-foto-2{
     width: 100%;
     height: 70%;
     background-color: aquamarine;
 }
 /*testo traccie*/
-.testo-foto-1{
+.testo-foto-2{
     width: 100%;
     height: 30%;
     background-color: black;
@@ -292,13 +331,13 @@ hr {
 
 /*card-3*/
 /*foto delle tracccie che occuperanno solo una parte della cdrd*/
-.card-foto-1{
+.card-foto-3{
     width: 100%;
     height: 70%;
     background-color: aquamarine;
 }
 /*testo traccie*/
-.testo-foto-1{
+.testo-foto-3{
     width: 100%;
     height: 30%;
     background-color: black;
@@ -308,13 +347,13 @@ hr {
 
 /*card-4*/
 /*foto delle tracccie che occuperanno solo una parte della cdrd*/
-.card-foto-1{
+.card-foto-4{
     width: 100%;
     height: 70%;
     background-color: aquamarine;
 }
 /*testo traccie*/
-.testo-foto-1{
+.testo-foto-4{
     width: 100%;
     height: 30%;
     background-color: black;
@@ -324,13 +363,13 @@ hr {
 
 /*card-5*/
 /*foto delle tracccie che occuperanno solo una parte della cdrd*/
-.card-foto-1{
+.card-foto-5{
     width: 100%;
     height: 70%;
     background-color: aquamarine;
 }
 /*testo traccie*/
-.testo-foto-1{
+.testo-foto-5{
     width: 100%;
     height: 30%;
     background-color: black;
@@ -340,13 +379,13 @@ hr {
 
 /*card-6*/
 /*foto delle tracccie che occuperanno solo una parte della cdrd*/
-.card-foto-1{
+.card-foto-6{
     width: 100%;
     height: 70%;
     background-color: aquamarine;
 }
 /*testo traccie*/
-.testo-foto-1{
+.testo-foto-6{
     width: 100%;
     height: 30%;
     background-color: black;
