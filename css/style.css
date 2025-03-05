@@ -276,6 +276,7 @@ hr {
     width: calc((100% - 100px) / 6);
     height: 300px;
     flex-direction: column;
+    
 
 }
 
@@ -318,15 +319,18 @@ hr {
 .card-foto-2{
     width: 100%;
     height: 70%;
-    background-color: aquamarine;
+    background-color: transparent;
+    background-image: url(../img/stranger.jpeg);
+    background-size: cover;
 }
 /*testo traccie*/
 .testo-foto-2{
     width: 100%;
-    height: 30%;
-    background-color: black;
+    
+    background-color: transparent;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 /*card-3*/
@@ -334,15 +338,18 @@ hr {
 .card-foto-3{
     width: 100%;
     height: 70%;
-    background-color: aquamarine;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(../img/aquietplace.jpeg);
 }
 /*testo traccie*/
 .testo-foto-3{
     width: 100%;
-    height: 30%;
-    background-color: black;
+    /*altezze testo tolte*/
+    background-color: transparent;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 /*card-4*/
@@ -350,15 +357,19 @@ hr {
 .card-foto-4{
     width: 100%;
     height: 70%;
-    background-color: aquamarine;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(../img/split.jpeg);
 }
 /*testo traccie*/
 .testo-foto-4{
     width: 100%;
-    height: 30%;
-    background-color: black;
+    /*altezze testo tolte (30% erano)*/
+   
+    background-color: transparent;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 /*card-5*/
@@ -366,15 +377,19 @@ hr {
 .card-foto-5{
     width: 100%;
     height: 70%;
-    background-color: aquamarine;
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(../img/cure.jpeg);
 }
 /*testo traccie*/
 .testo-foto-5{
     width: 100%;
-    height: 30%;
-    background-color: black;
+     /*altezze testo tolte (30% erano)*/
+    
+    background-color: transparent;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 /*card-6*/
@@ -382,17 +397,131 @@ hr {
 .card-foto-6{
     width: 100%;
     height: 70%;
-    background-color: aquamarine;
+    background-color: transparent;
+    background-image: url(../img/sinister.jpeg);
+    background-size: cover;
 }
+
 /*testo traccie*/
 .testo-foto-6{
     width: 100%;
-    height: 30%;
-    background-color: black;
+     /*altezze testo tolte (30% erano)*/
+    background-color: transparent;
     color: white;
     padding: 10px;
+    text-align: center;
+}
+/*fine card*/
+
+/*sezione per john sottto le card*/
+.container-john {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 }
 
+.container-john .subtitle-1 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.container-john .subtitle {
+    color: gray;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+/*card-7*/
+/*foto card per john*/
+.card-foto-7{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    background-image: url(../img/radar.jpeg);
+    background-size: cover;
+}
+/*testo traccie*/
+.testo-foto-7{
+    width: 100%;
+    
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*card-8*/
+/*foto card per john*/
+.card-foto-8{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    background-image: url(../img/mixdaily.jpeg);
+    background-size: cover;
+}
+/*testo traccie*/
+.testo-foto-8{
+    width: 100%;
+    
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*artisti piu popolari*/
+
+/*creo una nuova card per farla tonda*/
+
+
+/*card-9*/
+/*foto card per john*/
+.card-foto-9{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    background-image: url(../img/youg.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+/*testo traccie*/
+.testo-foto-9{
+    width: 100%;
+    
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*card-8*/
+/*foto card per john*/
+.card-foto-10{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    background-image: url(../img/einaudi.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+/*testo traccie*/
+.testo-foto-10{
+    width: 100%;
+    
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 
 
