@@ -58,7 +58,7 @@ main {
     display: flex;
     flex-grow: 1;
     height: calc(100vh - 100px);
-    background-color: gray;
+    background-color: #141922;
     overflow: hidden;
 }
 
@@ -209,7 +209,16 @@ hr {
     flex-grow: 1;
     overflow-y: auto;
 }
-
+/*SELEZIONE TIPOLOGIA ASCOLTO*/
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
 /* ======= FOOTER ======= */
 footer {
     height: 100px;
