@@ -227,18 +227,23 @@ hr {
 .container-music{
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: transparent;
     display: flex;
     justify-content: center;
+    display: flex;
     
    
 }
-
+/*----------------INTERNO CONTENUTO PRINCIPALE-------------------------------*/
 /*container per i brani ecc*/
 .music{
-    background-color: yellow;
+    background-color: #141922;
     width: 96%;
-    height: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
 }
 
 /*brani con card*/
@@ -246,8 +251,11 @@ hr {
 
     background-color: blue;
     /*la larghezza sara il 100% del contenitore diviso 6 che sono le card che devpo mettere da esercizio*/
-    width: calc(100% / 6);
+
+    /*ho messo nel calcolo anche la somma dei gap per 6 card 5 spazi quindi 100 20x5*/
+    width: calc((100% - 100px) / 6);
     height: 340px;
+    flex-direction: column;
 
 }
 
@@ -257,8 +265,101 @@ hr {
     height: 70%;
     background-color: aquamarine;
 }
+/*testo traccie*/
+.testo-foto-1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*card-2*/
+/*foto delle tracccie che occuperanno solo una parte della cdrd*/
+.card-foto-1{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+}
+/*testo traccie*/
+.testo-foto-1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*card-3*/
+/*foto delle tracccie che occuperanno solo una parte della cdrd*/
+.card-foto-1{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+}
+/*testo traccie*/
+.testo-foto-1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*card-4*/
+/*foto delle tracccie che occuperanno solo una parte della cdrd*/
+.card-foto-1{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+}
+/*testo traccie*/
+.testo-foto-1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*card-5*/
+/*foto delle tracccie che occuperanno solo una parte della cdrd*/
+.card-foto-1{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+}
+/*testo traccie*/
+.testo-foto-1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*card-6*/
+/*foto delle tracccie che occuperanno solo una parte della cdrd*/
+.card-foto-1{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+}
+/*testo traccie*/
+.testo-foto-1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
 /* ======= FOOTER ======= */
 footer {
     height: 100px;
     background-color: #282828;
+    
 }
