@@ -526,8 +526,92 @@ hr {
 
 
 /* ======= FOOTER ======= */
+
 footer {
-    height: 100px;
+    height: 120px;
     background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.footer-content{
+    background-color: red;
+    width: 99%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.left-qube{
+    background-color: yellow;
+    width: 280px;
+    height: 80%;
+    display: flex;
+    justify-content: right;
+    background-image: url(../img/sinister.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    
+}
+
+.left-qube-right{
+    background-color: transparent;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.left-qube-right p{
+    color: white;
+    text-align: left;
+    
+}
+
+
+.center-qube{
+
+    background-color: rgb(21, 255, 0);
+    width: 600px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+   
+    
+
+}
+.bar{
+    width: 80%;
+    height: 4px;
+    background-color: gray;
+    margin: 15px;
+    margin: 15px;
+    border-radius: 50px;
+    
+}
+.bar-progress{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.right-qube{
+    background-color: yellow;
+    width: 280px;
+    height: 80%;
+    display: flex;
+    
+  
+
 }
