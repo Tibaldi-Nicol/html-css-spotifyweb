@@ -578,7 +578,7 @@ footer {
     
 }
 .icon{
-    color: white;
+    color: gray;
 }
 
 
@@ -658,4 +658,20 @@ footer {
 .icons{
     color: white;
     
+}
+
+
+
+
+
+
+li:hover{
+    color: white;
+}
+
+.uno:hover{
+    color: white;
+}
+.icon:hover{
+    color: white;
 }
