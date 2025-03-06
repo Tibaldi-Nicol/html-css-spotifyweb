@@ -537,7 +537,7 @@ footer {
 }
 
 .footer-content{
-    background-color: red;
+    background-color: transparent;
     width: 99%;
     height: 90%;
     display: flex;
@@ -548,7 +548,7 @@ footer {
 }
 
 .left-qube{
-    background-color: yellow;
+    background-color: transparent;
     width: 280px;
     height: 80%;
     display: flex;
@@ -568,17 +568,23 @@ footer {
     align-items: center;
    
 }
+.pen{
+    margin: 10px;
+}
 
 .left-qube-right p{
     color: white;
     text-align: left;
     
 }
+.icon{
+    color: white;
+}
 
 
 .center-qube{
 
-    background-color: rgb(21, 255, 0);
+    background-color: transparent;
     width: 600px;
     height: 80%;
     
@@ -597,7 +603,7 @@ footer {
 }
 
 .skip{
-    background-color: blue;
+    background-color: transparent;
     height: 40%;
     width: 100%;
     justify-content: center;
@@ -622,7 +628,7 @@ footer {
 }
 
 .right-qube{
-    background-color: yellow;
+    background-color: transparent;
     width: 280px;
     height: 80%;
     display: flex;
@@ -649,3 +655,7 @@ footer {
 }
 
 
+.icons{
+    color: white;
+    
+}
