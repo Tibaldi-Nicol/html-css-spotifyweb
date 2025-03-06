@@ -675,3 +675,14 @@ li:hover{
 .icon:hover{
     color: white;
 }
+
+
+/*Responsive css*/
+/*attualmente il layout è per deskstop oltrei 1200px*/
+
+/*qui layout per desktop inferiori*/
+@media screen and (max-width: 1200px){
+   .card{
+    width: calc((100% - 60px) /4);
+   }
+}
