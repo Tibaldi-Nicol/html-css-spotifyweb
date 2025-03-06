@@ -677,12 +677,83 @@ li:hover{
 }
 
 
-/*Responsive css*/
-/*attualmente il layout è per deskstop oltrei 1200px*/
 
-/*qui layout per desktop inferiori*/
-@media screen and (max-width: 1200px){
-   .card{
-    width: calc((100% - 60px) /4);
-   }
+/* ======= MEDIA QUERIES COMPLETE ======= */
+
+/* Desktop Grande (default - nessuna modifica) */
+
+/* Desktop (fino a 1200px) */
+@media screen and (max-width: 1200px) {
+    /* Riduco a 4 card per riga */
+    .card {
+      width: calc((100% - 60px) / 4);
+    }
+    
+    /* Caratteri più piccoli per i titoli */
+    .title-card {
+      font-size: 1rem;
+    }
 }
+
+/*tablet*/
+
+@media screen and (max-width: 970px) {
+
+    #sidebar{
+        width: 150px;
+    }
+
+    .option{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        height: 50%;
+    }
+
+    footer{
+        height: auto;
+       
+    }
+
+    .footer-content{
+        gap: 30px;
+    }
+
+    
+}
+    
+
+
+
+
+@media screen and (max-width: 768px) {
+    /* Sidebar ancora più stretta */
+    #sidebar {
+      width: 150px;
+    }
+    
+    /* Aggiorno la larghezza del contenuto */
+    #content {
+      width: calc(100% - 250px);
+      height: 100%;
+    }
+
+    .card{
+        height: 200px;
+    }
+
+
+    footer{
+        height: auto;
+       
+    }
+
+    .footer-content{
+        gap: 35px;
+    }
+
+    
+
+  }
+  
